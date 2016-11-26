@@ -1,6 +1,11 @@
 language: java
+
 jdk:
   - oraclejdk8
+
+before_install:
+
+ ./gradlew assemble
 
 script:
  - ./gradlew test
