@@ -5,7 +5,7 @@ jdk:
 
 before_install:
 
- ./gradlew assemble
+ gradle check
 
 script:
  - ./gradlew test
